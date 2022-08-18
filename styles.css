@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./engadget.png);
+    background-position: center ;
+    background-size: contain;
+    position: relative;
+}
+
+.login-section{
+    height: 100vh;
+    width: 33% ;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    padding-top: 115px;
+}
+
+.login-section img{
+    width: 116px;
+}
+
+h2{
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 45px;
+}
+
+.email{
+    width: 70%;
+    border: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(181, 176, 176);
+    font-size: 15px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    
+}
+
+.next{
+    background-color: #3399cc;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    /* 42597a */
+    border: none;
+    width: 70%;
+    height: 45px;
+    border-radius: 2px;
+    margin-bottom: 20px ;
+    cursor: pointer;
+}
+
+.next:hover{
+    background-color: #2a83af;
+}
+
+span{
+    width: 80%;
+    padding-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #3399cc;
+}
+
+.fu:hover{
+    color: #2a83af;
+}
+
+.create{
+    color: #3399cc;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #3399cc;
+    width: 70%;
+    height: 45px;
+    border-radius: 2px;
+    margin-bottom: 25px ;
+    cursor: pointer;
+}
+
+.create:hover{
+    color: #2a83af;
+}
+
+p{
+    font-size: 15px;
+}
+
+.google{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid rgb(181, 176, 176);
+    width: 70%;
+    height: 45px;
+    border-radius: 2px;
+    margin-top: 15px ;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.google:hover{
+    border: 1px solid #2a83af;
+}
+
+.google img{
+    width : 20px;
+    margin-right: 8px ;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 500px){
+    .main-container{
+        background-image: none;
+    }
+
+    .login-section{
+        width: 100%;
+        padding-top: 30px;
+    }
+}
